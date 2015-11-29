@@ -12,7 +12,6 @@ cache = ["filetime"]
 
 [dependencies]
 iron = { version = "0.2", default-features = false }
-mount = "0"
 time = "0.1"
 log = "0.3"
 
@@ -24,3 +23,7 @@ optional = true
 iron-test = "0"
 hyper = "0.6"
 router = "0"
+
+[dependencies.mount]
+git = "https://github.com/mvdnes/mount"
+branch = "no_ssl"
